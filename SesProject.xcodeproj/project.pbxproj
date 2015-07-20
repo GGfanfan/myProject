@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB0670F1B5CF3400063000E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB0670E1B5CF3400063000E /* main.m */; };
+		DAB067121B5CF3400063000E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB067111B5CF3400063000E /* AppDelegate.m */; };
+		DAB067151B5CF3400063000E /* SesProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB067131B5CF3400063000E /* SesProject.xcdatamodeld */; };
+		DAB067181B5CF3400063000E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB067171B5CF3400063000E /* ViewController.m */; };
+		DAB0671B1B5CF3400063000E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB067191B5CF3400063000E /* Main.storyboard */; };
+		DAB0671D1B5CF3400063000E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB0671C1B5CF3400063000E /* Images.xcassets */; };
+		DAB067201B5CF3400063000E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB0671E1B5CF3400063000E /* LaunchScreen.xib */; };
+		DAB0672C1B5CF3400063000E /* SesProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB0672B1B5CF3400063000E /* SesProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB067261B5CF3400063000E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB067011B5CF3400063000E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB067081B5CF3400063000E;
+			remoteInfo = SesProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB067091B5CF3400063000E /* SesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB0670D1B5CF3400063000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB0670E1B5CF3400063000E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB067101B5CF3400063000E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB067111B5CF3400063000E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB067141B5CF3400063000E /* SesProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SesProject.xcdatamodel; sourceTree = "<group>"; };
+		DAB067161B5CF3400063000E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB067171B5CF3400063000E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB0671A1B5CF3400063000E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB0671C1B5CF3400063000E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAB0671F1B5CF3400063000E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAB067251B5CF3400063000E /* SesProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SesProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB0672A1B5CF3400063000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB0672B1B5CF3400063000E /* SesProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SesProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB067061B5CF3400063000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB067221B5CF3400063000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB067001B5CF3400063000E = {
+			isa = PBXGroup;
+			children = (
+				DAB0670B1B5CF3400063000E /* SesProject */,
+				DAB067281B5CF3400063000E /* SesProjectTests */,
+				DAB0670A1B5CF3400063000E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB0670A1B5CF3400063000E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB067091B5CF3400063000E /* SesProject.app */,
+				DAB067251B5CF3400063000E /* SesProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB0670B1B5CF3400063000E /* SesProject */ = {
+			isa = PBXGroup;
+			children = (
+				DAB067101B5CF3400063000E /* AppDelegate.h */,
+				DAB067111B5CF3400063000E /* AppDelegate.m */,
+				DAB067161B5CF3400063000E /* ViewController.h */,
+				DAB067171B5CF3400063000E /* ViewController.m */,
+				DAB067191B5CF3400063000E /* Main.storyboard */,
+				DAB0671C1B5CF3400063000E /* Images.xcassets */,
+				DAB0671E1B5CF3400063000E /* LaunchScreen.xib */,
+				DAB067131B5CF3400063000E /* SesProject.xcdatamodeld */,
+				DAB0670C1B5CF3400063000E /* Supporting Files */,
+			);
+			path = SesProject;
+			sourceTree = "<group>";
+		};
+		DAB0670C1B5CF3400063000E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0670D1B5CF3400063000E /* Info.plist */,
+				DAB0670E1B5CF3400063000E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB067281B5CF3400063000E /* SesProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0672B1B5CF3400063000E /* SesProjectTests.m */,
+				DAB067291B5CF3400063000E /* Supporting Files */,
+			);
+			path = SesProjectTests;
+			sourceTree = "<group>";
+		};
+		DAB067291B5CF3400063000E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0672A1B5CF3400063000E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB067081B5CF3400063000E /* SesProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB0672F1B5CF3400063000E /* Build configuration list for PBXNativeTarget "SesProject" */;
+			buildPhases = (
+				DAB067051B5CF3400063000E /* Sources */,
+				DAB067061B5CF3400063000E /* Frameworks */,
+				DAB067071B5CF3400063000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SesProject;
+			productName = SesProject;
+			productReference = DAB067091B5CF3400063000E /* SesProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB067241B5CF3400063000E /* SesProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB067321B5CF3400063000E /* Build configuration list for PBXNativeTarget "SesProjectTests" */;
+			buildPhases = (
+				DAB067211B5CF3400063000E /* Sources */,
+				DAB067221B5CF3400063000E /* Frameworks */,
+				DAB067231B5CF3400063000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB067271B5CF3400063000E /* PBXTargetDependency */,
+			);
+			name = SesProjectTests;
+			productName = SesProjectTests;
+			productReference = DAB067251B5CF3400063000E /* SesProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB067011B5CF3400063000E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "上海壹嫂网络科技有限公司";
+				TargetAttributes = {
+					DAB067081B5CF3400063000E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DAB067241B5CF3400063000E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DAB067081B5CF3400063000E;
+					};
+				};
+			};
+			buildConfigurationList = DAB067041B5CF3400063000E /* Build configuration list for PBXProject "SesProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB067001B5CF3400063000E;
+			productRefGroup = DAB0670A1B5CF3400063000E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB067081B5CF3400063000E /* SesProject */,
+				DAB067241B5CF3400063000E /* SesProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB067071B5CF3400063000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB0671B1B5CF3400063000E /* Main.storyboard in Resources */,
+				DAB067201B5CF3400063000E /* LaunchScreen.xib in Resources */,
+				DAB0671D1B5CF3400063000E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB067231B5CF3400063000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB067051B5CF3400063000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB067121B5CF3400063000E /* AppDelegate.m in Sources */,
+				DAB067151B5CF3400063000E /* SesProject.xcdatamodeld in Sources */,
+				DAB067181B5CF3400063000E /* ViewController.m in Sources */,
+				DAB0670F1B5CF3400063000E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB067211B5CF3400063000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB0672C1B5CF3400063000E /* SesProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB067271B5CF3400063000E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB067081B5CF3400063000E /* SesProject */;
+			targetProxy = DAB067261B5CF3400063000E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB067191B5CF3400063000E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB0671A1B5CF3400063000E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB0671E1B5CF3400063000E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB0671F1B5CF3400063000E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB0672D1B5CF3400063000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB0672E1B5CF3400063000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB067301B5CF3400063000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SesProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB067311B5CF3400063000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SesProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB067331B5CF3400063000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SesProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SesProject.app/SesProject";
+			};
+			name = Debug;
+		};
+		DAB067341B5CF3400063000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SesProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SesProject.app/SesProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB067041B5CF3400063000E /* Build configuration list for PBXProject "SesProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB0672D1B5CF3400063000E /* Debug */,
+				DAB0672E1B5CF3400063000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB0672F1B5CF3400063000E /* Build configuration list for PBXNativeTarget "SesProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB067301B5CF3400063000E /* Debug */,
+				DAB067311B5CF3400063000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB067321B5CF3400063000E /* Build configuration list for PBXNativeTarget "SesProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB067331B5CF3400063000E /* Debug */,
+				DAB067341B5CF3400063000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAB067131B5CF3400063000E /* SesProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAB067141B5CF3400063000E /* SesProject.xcdatamodel */,
+			);
+			currentVersion = DAB067141B5CF3400063000E /* SesProject.xcdatamodel */;
+			path = SesProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAB067011B5CF3400063000E /* Project object */;
+}
