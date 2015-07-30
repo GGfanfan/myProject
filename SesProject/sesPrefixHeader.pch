@@ -1,0 +1,15 @@
+//
+//  sesPrefixHeader.pch
+//  SesProject
+//
+//  Created by ses on 15/7/20.
+//  Copyright (c) 2015年 上海壹嫂网络科技有限公司. All rights reserved.
+//
+
+#ifndef SesProject_sesPrefixHeader_pch
+#define SesProject_sesPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
